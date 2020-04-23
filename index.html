@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Meme!</title>
+    <link rel="stylesheet" href="meme.css">
+</head>
+<body>
+    <section class='top'>
+        <h1>Make a Meme!</h1>
+        <p>Fill out the form to make a meme!</p>
+        <form class='form'>
+            <div class='left'>
+                <label for="url">Image URL: </label>
+                <label for="top-text">Top text: </label>
+                <label for="bottom-text">Bottom text: </label>
+                <label for='submit'></label>
+            </div>
+             
+            <div class='right'>
+                <input type="text" id="url" placeholder="Enter an image URL" required>
+                <input type="text" id="top-text" placeholder="(Optional) Text you'd like at the top of your meme">
+                <input type="text" id="bottom-text" placeholder="(Optional) Text you'd like at the bottom of your meme">
+                <input type="submit" id='submit'>
+            </div>
+        </form>
+    </section>
+
+    <section id="meme-section">
+        
+    </section>
+    
+    <script src='./meme.js'></script>
+</body>
+</html>
