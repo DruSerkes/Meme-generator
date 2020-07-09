@@ -1,6 +1,7 @@
-# Meme generator 
+# Make A Meme
+Meme Generator
 
-Project Link: [Meme Generator](https://druserkes.github.io/Meme-generator/)
+Project Link: [Make a Meme](https://druserkes.github.io/Meme-generator/)
 
 ## What this project was about: 
 
